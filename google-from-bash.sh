@@ -11,7 +11,7 @@ google() {
     
     for(( i=0; i<$num_args; i++ ))
     do
-	    if [ "$i" -eq 0 ];then
+    	if [ "$i" -eq 0 ];then
             url_str="${args[0]}"
         fi
 
